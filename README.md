@@ -24,6 +24,8 @@ For cypress to run tests (npm test) you need to have:
 
   * You need both the front end AND back end to work before the tests can work.
 
+Cypress runs tests in leiu of an actual person trying to "break" the app by using it as a tester
+
 
 ## Q+A:
 What is beforeEach()?
@@ -31,5 +33,3 @@ What is beforeEach()?
 
 How do you make the application remember the objects in the array - even on refresh (instead of it resetting to the original array)?
  - b/c there is a back end - the inputtes quotes are being posted to the back end array. They then "live" in the same place so on a refresh, the state is grabbing all of the quotes.
-
- 
